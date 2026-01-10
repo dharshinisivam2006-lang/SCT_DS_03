@@ -1,51 +1,46 @@
 # SCT_DS_03
 
-📌 Project Title
+Task 03 – Decision Tree Classifier
+Objective
 
-Decision Tree Classifier for Bank Marketing Dataset
+To build a Decision Tree Classification model to predict whether a customer will purchase a bank product based on demographic and behavioral data.
 
-🎯 Objective
+Dataset
 
-To build a Decision Tree Classification model that predicts whether a customer will subscribe to a bank product based on given attributes.
-
-📂 Dataset
-
-Name: Bank Marketing Dataset
+Dataset Name: Bank Marketing Dataset
 Source: UCI Machine Learning Repository / Kaggle
 File Used: bank-additional-full.csv
 
-🛠️ Tools & Technologies
+Tools and Technologies
 
-Google Colab
 Python
-Libraries:
-pandas
-scikit-learn
+Google Colab
+Pandas
+Scikit-learn
 
-🔍 Methodology
+Methodology
 
-Uploaded the dataset to Google Colab
-Loaded the CSV file using pandas
-Converted categorical variables into numerical values using Label Encoding
-Split the dataset into training and testing sets
-Trained a Decision Tree Classifier model
-Evaluated the model using accuracy score
+Downloaded the Bank Marketing dataset from Kaggle.
+Uploaded the CSV file to Google Colab.
+Loaded the dataset using Pandas.
+Converted categorical variables into numerical values using Label Encoding.
+Split the dataset into training and testing sets.
+Trained a Decision Tree Classifier model.
+Evaluated the model using accuracy score.
 
-📊 Model Used
+Model Used
 
 Algorithm: Decision Tree Classifier
 Target Variable: y (Customer subscription: Yes / No)
+Results
+The Decision Tree model successfully predicted whether a customer would subscribe to the bank product with good accuracy.
 
-✅ Result
+Conclusion
 
-The Decision Tree model successfully predicted customer subscription with good accuracy on the test dataset.
+This project demonstrates how Decision Tree Classifier can be used effectively for customer purchase prediction using marketing data.
 
-🧾 Conclusion
-
-This project demonstrates how a Decision Tree Classifier can be effectively used to predict customer behavior using marketing data. Proper preprocessing and feature handling helped achieve reliable results.
-
-▶️ How to Run
+How to Run
 
 Open Google Colab
-Upload bank-additional-full.csv
-Run the provided Python code cells step by step
+Upload the dataset file
+Run the notebook step by step
